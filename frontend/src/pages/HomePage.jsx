@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { getBlogs } from "@/services/apiBlog";
-import BlogContainer from "@/ui_components/BlogContainer";
+import BlogContainer from "@/ui_comp/BlogContainer";
 import Header from "@/ui_comp/Header";
 import PagePagination from "../ui_comp/PagePagination";
 import { useQuery, keepPreviousData } from "@tanstack/react-query";
